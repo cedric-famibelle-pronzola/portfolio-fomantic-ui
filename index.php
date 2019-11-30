@@ -25,7 +25,7 @@ require './secure/regex.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./semantic/out/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./scripts/css/style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB et WEB mobile</title>
@@ -305,7 +305,7 @@ require './secure/regex.php';
     <?php include './includes/form_contact.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
+    <script src="./semantic/out/semantic.min.js"></script>
     <script src="./scripts/js/main.js"></script>
 </body>
 
