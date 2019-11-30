@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 mb_internal_encoding('UTF-8');
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -26,20 +28,34 @@ if(isset($_POST['sendMessage']))
   $email = trim($_POST['email']);
   $subject = htmlspecialchars(trim($_POST['subject']));
   $message = htmlspecialchars(trim($_POST['message']));
+  $cgu = isset($_POST['checkbox']) ? true : false;
+
+  if(!$cgu)
+  {
+    $_SESSION['noCGU'] = true;
+    header('Location: ./');
+    return;
+  }
 
   if(!checkRegex($regexName, $firstName))
   {
-    echo 'prenom incorrect';
+    $_SESSION['wrongFirstName'] = true;
+    header('Location: ./');
+    return;
   }
 
   if(!checkRegex($regexName, $lastName))
   {
-    echo 'nom incorrect';
+    $_SESSION['wrongLastName'] = true;
+    header('Location: ./');
+    return;
   }
 
   if(!checkRegex($regexEmail, $email))
   {
-    echo 'prenom incorrect';
+    $_SESSION['wrongEmail'] = true;
+    header('Location: ./');
+    return;
   }
 
   $messageArray = array(

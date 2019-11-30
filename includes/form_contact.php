@@ -1,5 +1,5 @@
 <div class="ui inverted segment container">
-  <form class="ui form inverted" method="POST" action="../contact.php">
+  <form class="ui form inverted" method="POST" action="./contact.php">
     <div class="field required">
       <label>Prénom</label>
       <input type="text" name="firstName" placeholder="Prénom" pattern="^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ._\s-]{2,30}$">
@@ -25,8 +25,8 @@
         <input type="checkbox" name="checkbox">
         <label> <a class="cgu" href="#">J'accepte les conditions générales d'ulisation</a>
         <noscript>
-                <p><a target="_blank" id="cguNoScript" href="./mentions.html">Cliquez ici si JavaScript n'est pas activé</a></p>
-            </noscript>
+          <p><a target="_blank" id="cguNoScript" href="./mentions.html">Cliquez ici si JavaScript n'est pas activé</a></p>
+        </noscript>
        </label>
       </div>
     </div>

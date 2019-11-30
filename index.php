@@ -1,5 +1,12 @@
 <?php
 
+session_start();
+
+$wrongFirstName = isset($_SESSION['wrongFirstName']) ? true : false;
+$wrongLastName = isset($_SESSION['wrongLastName']) ? true : false;
+$wrongEmail = isset($_SESSION['wrongEmail']) ? true : false;
+$noCgu = isset($_SESSION['noCGU']) ? true : false;
+
 /**
  * permet de lier l'instanciation de la casse avec les fichiers présents dans le dossier 'classes'
  * ----------------
@@ -37,15 +44,30 @@ require './secure/regex.php';
     <div class="ui fluid container">
         <header class="ui inverted blue segment">
             <h1 class="ui center aligned header">Cédric FAMIBELLE-PRONZOLA
-                <div class="ui sub header center aligned primary">Créer, développer, c'est mon métier et j'en suis passionné.</div>
+                <div class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</div>
             </h1>
         </header>
     </div>
     <div class="ui tall stacked segment center aligned inverted">
         <h1 class="ui header">
             Projets
-            <div class="sub header"><i>Cliquez sur le titre du projet afin d'y accéder.</i></div>
+            <div class="sub header"><i style="color: red">Cliquez sur le titre du projet afin d'y accéder.</i></div>
         </h1>
+        <?php 
+            if($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true):
+        ?>
+            <h1 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis. <em data-emoji="confused" class="small"></em></h1>
+        <?php
+            session_unset();
+            session_destroy();
+            elseif($noCgu):
+        ?>
+            <h1 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Veuillez accepter les conditions générales pour valider le formulaire. <em data-emoji="confused" class="small"></em></h1>
+        <?php
+            session_unset();
+            session_destroy();
+        endif
+        ?>
     </div>
 
     <!-- Modal -->
@@ -76,9 +98,9 @@ require './secure/regex.php';
         <h1 class="ui header">Me contacter</h1>
     </div>
 
-    <!-- Spaceship Hunt Block -->
+    <!-- Contact Block -->
     <?php include './includes/form_contact.php' ?>
-    <!--# Spaceship Hunt Block #-->
+    <!--# Contact Block #-->
 
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">

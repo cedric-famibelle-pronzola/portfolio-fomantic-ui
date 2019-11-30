@@ -4,16 +4,16 @@
           <div class="ui raised segment text blue sticky-spaceship-hunt sticky center aligned">
               <h2 class="ui header red">Outils utilisés</h2> 
               <div class="ui tiny images">
-                  <img class="ui image" src="./img/logos/js.png">
-                  <img class="ui image" src="./img/logos/jquery.png">
-                  <img class="ui image" src="./img/logos/bootstrap4.png">
+                  <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.png">
+                  <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.png">
+                  <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4.png">
               </div>
           </div>
       </div>
       <div id="sticky-spaceship-hunt-stop" class="column ui eight wide column">
           <div class="ui raised text blue segment inverted">
               <h2 class="ui header blue centered inverted">
-                  <a class="ui header inverted" target="_blank" href="http://www.famibelle-pronzola.website/spaceship-hunt">Spaceship Hunt</a>
+                  <a class="ui header inverted" target="_blank" href="http://www.famibelle-pronzola.website/spaceship-hunt" data-tooltip="Cliquez pour ouvrir">Spaceship Hunt</a>
                   <div class="sub header inverted">Reproduction du jeu &laquo; Duck Hunt &raquo;. Possiblité de jouer en solo ou en multijoueur.</div>
               </h2>
           </div>
@@ -22,7 +22,7 @@
               <div class="stretched row">
                   <div class="column ui">
                       <a class="alertifa-1 ui" href="">
-                          <img class="alertifa-img ui image medium centered aligned rounded"
+                          <img class="popup-img ui image medium centered aligned rounded"
                           src="./img/alertifa/alertifa.png"
                           alt="Capture 1 de alertifa"
                           title="Capture 1 de alertifa"
@@ -36,7 +36,7 @@
                   <div class="column">
                       <div class="ui">
                           <a class="alertifa-2 ui" href="">
-                              <img class="alertifa-img ui medium image centered aligned rounded"
+                              <img class="popup-img ui medium image centered aligned rounded"
                               src="./img/alertifa/alertifa2.png"
                               alt="Capture 2 de alertifa"
                               title="Capture 2 de alertifa"
@@ -49,7 +49,7 @@
                       </div>
                       <div class="ui">
                           <a class="alertifa-3 ui" href="">
-                              <img class="alertifa-img ui medium image centered aligned rounded" 
+                              <img class="popup-img ui medium image centered aligned rounded" 
                               src="./img/alertifa/alertifa3.png"
                               alt="Capture 3 de alertifa"
                               title="Capture 3 de alertifa"
@@ -66,9 +66,9 @@
               <h2 class="ui header dividing red">Démonstration vidéo</h2>
           </div>
           <noscript>
-              <a href="https://vimeo.com/338273164">Voir la vidéo</a>
+              <a style="color: red" href="https://vimeo.com/338273164">Cliquez pour voir la vidéo si JavaScript est désactivé.</a>
           </noscript>
-          <div id="vimeo-spaceship-hunt" class="ui embed alertifa-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/alertifa/alertifa3.png" data-inverted=""
+          <div id="vimeo-spaceship-hunt" class="ui embed popup-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/alertifa/alertifa3.png" data-inverted=""
                   data-position="top center"
                   data-title="Démonstration de Spaceship Hunt"
                   data-variation="inverted"

@@ -18,7 +18,7 @@ $(function () {
       .modal('show');
   });
 
-  $('.alertifa-img')
+  $('.popup-img')
     .popup();
 
   $('#vimeo-alertifa').embed();
