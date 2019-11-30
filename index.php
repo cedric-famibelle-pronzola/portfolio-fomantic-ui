@@ -29,56 +29,25 @@ require './secure/regex.php';
     <link rel="stylesheet" type="text/css" href="./scripts/css/style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB et WEB mobile</title>
-    <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier">
+    <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier et j'en suis passionné.">
 </head>
 
 <body>
-    <div class="ui container">
+    
+    <div class="ui fluid container">
         <header class="ui inverted blue segment">
             <h1 class="ui center aligned header">Cédric FAMIBELLE-PRONZOLA
-                <div class="ui sub header center aligned primary">Créer, développer, c'est mon métier.</div>
+                <div class="ui sub header center aligned primary">Créer, développer, c'est mon métier et j'en suis passionné.</div>
             </h1>
         </header>
     </div>
-    <!-- Début modal -->
-    <div class="ui large modal alertifa-1-mod">
-        <div class="ui header center aligned">
-            Alert'IFA
-            <div class="sub header">L'utilisateur enregistré peut se connecter grâce à son email et son mot de passe</div>
-        </div>
-        <div class="image content">
-            <img src="./img/alertifa/alertifa.png" class="ui centered fluid image huge rounded">
-        </div>
-        <i class="window close icon"></i>
+    <div class="ui tall stacked segment center aligned inverted">
+        <h1 class="ui header">Projets</h1>
     </div>
-    <div class="ui fullscreen modal alertifa-2-mod">
-        <div class="ui header center aligned">
-            Alert'IFA
-            <div class="sub header">Page d'accueil de l'administrateur.</div>
-        </div>
-        <div class="image content">
-            <img src="./img/alertifa/alertifa2.png" class="ui centered fluid image rounded">
-        </div>
-        <i class="window close icon"></i>
-    </div>
-    <div class="ui fullscreen modal alertifa-3-mod">
-        <div class="ui header center aligned">
-            Alert'IFA
-            <div class="sub header">Espace d'administration. L'administrateur peut y ajouter un utilisateur, gérer les rôles de chacun et importer une liste de stagiaire via un fichier csv.</div>
-        </div>
-        <div class="image content">
-            <img src="./img/alertifa/alertifa3.png" class="ui centered fluid image rounded">
-        </div>
-        <i class="window close icon"></i>
-    </div>
-    <!--# Fin modal #-->
-    <!-- <div class="ui container">
-        <article>
-            <section>
-                <h1 class="ui header centered segment block inverted">Projets</h1>
-            </section>
-        </article>
-    </div> -->
+
+    <!-- Modal -->
+    <?php include './includes/modal.php' ?>
+    <!--# Modal #-->
 
     <!-- Alertifa Block -->
     <?php include './includes/alertifa_block.php' ?>
@@ -100,9 +69,20 @@ require './secure/regex.php';
     <?php include './includes/spaceship_hunt_block.php' ?>
     <!--# Spaceship Hunt Block #-->
 
+    <div class="ui tall stacked segment center aligned inverted">
+        <h1 class="ui header">Me contacter</h1>
+    </div>
+
+    <!-- Spaceship Hunt Block -->
     <?php include './includes/form_contact.php' ?>
-    <?php include './includes/form_contact.php' ?>
-    <?php include './includes/form_contact.php' ?>
+    <!--# Spaceship Hunt Block #-->
+
+    <footer>
+        <div id="footer" class="ui tall stacked segment center aligned inverted">
+            <p>Conditions générales</p>
+        </div>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <script src="./semantic/out/semantic.min.js"></script>

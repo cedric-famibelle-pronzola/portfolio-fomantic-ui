@@ -51,29 +51,85 @@ $(function () {
     .sticky({
       context: '#sticky-spaceship-hunt-stop'
     });
-  
-  $(window).resize(function() {
 
-    if($(window).width() < 768)
-    {
+  $(window).resize(function () {
+
+    if ($(window).width() < 768) {
       $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
+        .sticky({
+          context: false
+        });
+    }
+
+  });
+
+  if ($(window).width() < 768) {
+    $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
       .sticky({
         context: false
       });
-    }
-    
-  });
-
-  if($(window).width() < 768)
-  {
-    $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
-    .sticky({
-      context: false
-    });
   }
 
-
-
-
+  $('.ui.form')
+  .form({
+    on: 'blur',
+    fields: {
+      firstName: {
+        identifier  : 'firstName',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Votre prénom est obligatoire'
+          }
+        ]
+      },
+      lastName: {
+        identifier  : 'lastName',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Votre nom est obligatoire'
+          }
+        ]
+      },
+      email: {
+        identifier  : 'email',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Votre adresse email est obligatoire'
+          }
+        ]
+      },
+      subject: {
+        identifier  : 'subject',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : "L'objet de votre message est obligatoire"
+          }
+        ]
+      },
+      message: {
+        identifier  : 'message',
+        rules: [
+          {
+            type   : 'empty',
+            prompt : 'Votre message ne peut être vide'
+          }
+        ]
+      },
+      gift: {
+        identifier  : 'checkbox',
+        rules: [
+          {
+            type   : 'checked',
+            prompt : "Vous devez accepter les conditions générales d'utilisation"
+          }
+        ]
+      }
+    }
+  })
+;
 });
 

@@ -72,7 +72,7 @@
           </noscript>
           <div id="vimeo-spaceship-hunt" class="ui embed alertifa-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/alertifa/alertifa3.png" data-inverted=""
                   data-position="top center"
-                  data-title="Démonstration de &laquo; Alert'IFA &raquo;"
+                  data-title="Démonstration de Spaceship Hunt"
                   data-variation="inverted"
                   data-inverted="">
           </div>

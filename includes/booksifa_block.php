@@ -76,7 +76,7 @@
           </noscript>
           <div id="vimeo-booksifa" class="ui embed alertifa-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/alertifa/alertifa3.png" data-inverted=""
                   data-position="top center"
-                  data-title="Démonstration de &laquo; Alert'IFA &raquo;"
+                  data-title="Démonstration de Books'IFA"
                   data-variation="inverted"
                   data-inverted="">
           </div>
@@ -87,7 +87,7 @@
               <div class="ui placeholder segment">
                   <div class="ui icon header">
                       <i class="huge git alternate icon"></i>
-                      <a href="" class="ui primary button">Voir le repo</a>
+                      <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/librairie-poo" class="ui primary button">Voir le repo</a>
                   </div>
               </div>
           </div>
