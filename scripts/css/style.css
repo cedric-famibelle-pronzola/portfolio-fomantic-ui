@@ -11,10 +11,3 @@ body>div.ui.container{
 div.menu.stackable{
     margin-top: 1em
 }
-
-@media screen and (max-width: 933px) {
-    .dontshowme {
-      display:none;
-
-    }
-}

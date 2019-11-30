@@ -23,6 +23,9 @@ $(function () {
 
   $('#vimeo-alertifa').embed();
   $('#vimeo-samnipoufe').embed();
+  $('#vimeo-booksifa').embed();
+  $('#vimeo-spacebullet').embed();
+  $('#vimeo-spaceship-hunt').embed();
 
   $('.sticky-alert')
     .sticky({
@@ -33,6 +36,44 @@ $(function () {
     .sticky({
       context: '#sticky-samnipoufe-stop'
     });
+
+  $('.sticky-books')
+    .sticky({
+      context: '#sticky-books-stop'
+    });
+
+  $('.sticky-space-bullet')
+    .sticky({
+      context: '#sticky-space-bullet-stop'
+    });
+
+  $('.sticky-spaceship-hunt')
+    .sticky({
+      context: '#sticky-spaceship-hunt-stop'
+    });
+  
+  $(window).resize(function() {
+
+    if($(window).width() < 768)
+    {
+      $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
+      .sticky({
+        context: false
+      });
+    }
+    
+  });
+
+  if($(window).width() < 768)
+  {
+    $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
+    .sticky({
+      context: false
+    });
+  }
+
+
+
 
 });
 
