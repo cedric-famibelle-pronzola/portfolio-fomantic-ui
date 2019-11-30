@@ -2,7 +2,7 @@
   <div class="row">
       <div class="ui column">
           <div class="ui sticky sticky-alert raised segment text blue center aligned">
-              <h2 class="ui header blue"><a target="_blank" href="https://www.famibelle-pronzola.website/alertifa">Alert'IFA</a></h2> 
+              <h2 class="ui header blue">Outils utilisés</h2> 
               <div class="ui tiny images">
                   <img class="ui image" src="./img/logos/html5.png">
                   <img class="ui image" src="./img/logos/css3.png">

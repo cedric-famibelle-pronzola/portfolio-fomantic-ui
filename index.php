@@ -33,7 +33,7 @@ require './secure/regex.php';
 </head>
 
 <body>
-    
+
     <div class="ui fluid container">
         <header class="ui inverted blue segment">
             <h1 class="ui center aligned header">Cédric FAMIBELLE-PRONZOLA
@@ -42,7 +42,10 @@ require './secure/regex.php';
         </header>
     </div>
     <div class="ui tall stacked segment center aligned inverted">
-        <h1 class="ui header">Projets</h1>
+        <h1 class="ui header">
+            Projets
+            <div class="sub header"><i>Cliquez sur le titre du projet afin d'y accéder.</i></div>
+        </h1>
     </div>
 
     <!-- Modal -->
@@ -79,10 +82,12 @@ require './secure/regex.php';
 
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">
-            <p>Conditions générales</p>
+            <a class="cgu" href="#">Conditions générales d'utlisation</a>
+            <noscript>
+                <p><a target="_blank" id="cguNoScript" href="./mentions.html">Cliquez ici si JavaScript n'est pas activé</a></p>
+            </noscript>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <script src="./semantic/out/semantic.min.js"></script>

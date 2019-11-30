@@ -23,7 +23,11 @@
     <div class="field required">
       <div class="ui toggle checkbox">
         <input type="checkbox" name="checkbox">
-        <label> <a href="#">J'accepte les conditions générales d'ulisation</a> </label>
+        <label> <a class="cgu" href="#">J'accepte les conditions générales d'ulisation</a>
+        <noscript>
+                <p><a target="_blank" id="cguNoScript" href="./mentions.html">Cliquez ici si JavaScript n'est pas activé</a></p>
+            </noscript>
+       </label>
       </div>
     </div>
     <button class="ui submit button" type="submit" name="sendMessage">Envoyer le message</button>

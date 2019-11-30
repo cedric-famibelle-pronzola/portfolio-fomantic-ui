@@ -2,9 +2,7 @@
   <div class="row">
       <div class="column">
           <div class="ui raised segment text red sticky-space-bullet sticky center aligned">
-              <h2 class="ui header red">
-                  <a class="ui header red" target="_blank" href="https://www.famibelle-pronzola.website/space_bullet">Space Bullet</a>
-              </h2> 
+              <h2 class="ui header red">Outils utilisés</h2> 
               <div class="ui tiny images">
                   <img class="ui image" src="./img/logos/js.png">
                   <img class="ui image" src="./img/logos/phaser.png">
@@ -81,10 +79,10 @@
           <div class="ui segment red raised center sticky sticky-space-bullet">
               <h3 class="ui header centered red">Documentation</h3>
               <div class="ui placeholder segment">
-                  <div class="ui icon header">
-                      <i class="huge git alternate icon"></i>
-                      <a href="" class="ui negative button">Voir le repo</a>
-              </div>
+                <div class="ui icon header">
+                    <i class="huge git alternate icon"></i>
+                    <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/space_bullet" class="ui negative button">Voir le repo</a>
+                </div>
           </div>
       </div>
   </div>

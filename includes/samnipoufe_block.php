@@ -2,8 +2,7 @@
   <div class="row">
       <div class="column">
           <div class="ui raised segment text red sticky-samnipoufe sticky center aligned">
-              <h2 class="ui header red">
-                  <a class="ui header red" target="_blank" href="https://www.famibelle-pronzola.website/samnipoufe">Samnipoufè</a>
+              <h2 class="ui header red">Outils utilisés
               </h2> 
               <div class="ui tiny images">
                   <img class="ui image" src="./img/logos/angular.png">
@@ -87,8 +86,8 @@
                       Voir le repo
                   </div>
                   <div class="ui inline">
-                      <a href="" class="ui negative button">Version "Build"</a>
-                      <a href="" class="ui negative button">Version "Dev"</a>
+                      <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/samnipoufe" class="ui negative button">Version "Build"</a>
+                      <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/angular-todo-list" class="ui negative button">Version "Dev"</a>
                   </div>
               </div>
           </div>

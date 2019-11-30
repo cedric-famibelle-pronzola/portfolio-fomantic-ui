@@ -2,9 +2,7 @@
   <div class="row">
       <div class="column">
           <div class="ui raised segment text blue sticky-spaceship-hunt sticky center aligned">
-              <h2 class="ui header red">
-                  <a class="ui header blue" target="_blank" href="https://www.famibelle-pronzola.website/spaceship-hunt">Spaceship Hunt</a>
-              </h2> 
+              <h2 class="ui header red">Outils utilisés</h2> 
               <div class="ui tiny images">
                   <img class="ui image" src="./img/logos/js.png">
                   <img class="ui image" src="./img/logos/jquery.png">
@@ -81,14 +79,10 @@
           <div class="ui segment blue raised center sticky sticky-spaceship-hunt">
               <h3 class="ui header centered blue">Documentation</h3>
               <div class="ui placeholder segment">
-                  <div class="ui icon header">
-                      <i class="huge git alternate icon"></i>
-                      Voir le repo
-                  </div>
-                  <div class="ui inline">
-                      <a href="" class="ui primary button">Version "Build"</a>
-                      <a href="" class="ui primary button">Version "Dev"</a>
-                  </div>
+                <div class="ui icon header">
+                    <i class="huge git alternate icon"></i>
+                    <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/spaceship-hunt" class="ui primary button">Voir le repo</a>
+                </div>
               </div>
           </div>
       </div>
