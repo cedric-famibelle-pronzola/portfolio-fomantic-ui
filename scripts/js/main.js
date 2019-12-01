@@ -18,6 +18,66 @@ $(function () {
       .modal('show');
   });
 
+  $('.samnipoufe-1').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.samnipoufe-1-mod')
+      .modal('show');
+  });
+
+  $('.samnipoufe-2').click(function (e) {
+    e.preventDefault();
+    $('.ui.fullscreen.modal.samnipoufe-2-mod')
+      .modal('show');
+  });
+
+  $('.samnipoufe-3').click(function (e) {
+    e.preventDefault();
+    $('.ui.fullscreen.modal.samnipoufe-3-mod')
+      .modal('show');
+  });
+
+  $('.booksifa-1').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.booksifa-1-mod')
+      .modal('show');
+  });
+
+  $('.booksifa-2').click(function (e) {
+    e.preventDefault();
+    $('.ui.fullscreen.modal.booksifa-2-mod')
+      .modal('show');
+  });
+
+  $('.booksifa-3').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.booksifa-3-mod')
+      .modal('show');
+  });
+  
+  $('.spacebullet-1').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.spacebullet-1-mod')
+      .modal('show');
+  });
+
+  $('.spacebullet-2').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.spacebullet-2-mod')
+      .modal('show');
+  });
+  
+  $('.spaceship-hunt-1').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.spaceship-hunt-1-mod')
+      .modal('show');
+  });
+
+  $('.spaceship-hunt-2').click(function (e) {
+    e.preventDefault();
+    $('.ui.large.modal.spaceship-hunt-2-mod')
+      .modal('show');
+  });
+
   $('.popup-img')
     .popup();
 
@@ -80,6 +140,10 @@ $(function () {
             {
               type: 'empty',
               prompt: 'Votre prénom est obligatoire'
+            },
+            {
+              type   : 'minLength[2]',
+              prompt : "Il faut au moins {ruleValue} caractères pour le prénom"
             }
           ]
         },
@@ -89,6 +153,10 @@ $(function () {
             {
               type: 'empty',
               prompt: 'Votre nom est obligatoire'
+            },
+            {
+              type   : 'minLength[2]',
+              prompt : "Il faut au moins {ruleValue} caractères pour le nom"
             }
           ]
         },
@@ -98,6 +166,10 @@ $(function () {
             {
               type: 'empty',
               prompt: 'Votre adresse email est obligatoire'
+            },
+            {
+              type: 'email',
+              prompt: "L'email n'a pas le format requis"
             }
           ]
         },
@@ -119,7 +191,7 @@ $(function () {
             }
           ]
         },
-        gift: {
+        checkbox: {
           identifier: 'checkbox',
           rules: [
             {

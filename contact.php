@@ -58,6 +58,20 @@ if(isset($_POST['sendMessage']))
     return;
   }
 
+  if(empty($subject))
+  {
+    $_SESSION['emptySubject'] = true;
+    header('Location: ./');
+    return;
+  }
+  
+  if(empty($message))
+  {
+    $_SESSION['emptyMessage'] = true;
+    header('Location: ./');
+    return;
+  }
+
   $messageArray = array(
     'firstName' => $firstName,
     'lastName' => $lastName,

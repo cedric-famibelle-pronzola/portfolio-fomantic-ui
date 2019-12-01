@@ -5,6 +5,8 @@ session_start();
 $wrongFirstName = isset($_SESSION['wrongFirstName']) ? true : false;
 $wrongLastName = isset($_SESSION['wrongLastName']) ? true : false;
 $wrongEmail = isset($_SESSION['wrongEmail']) ? true : false;
+$emptySubject = isset($_SESSION['emptySubject']) ? true : false;
+$emptyMessage = isset($_SESSION['emptyMessage']) ? true : false;
 $noCgu = isset($_SESSION['noCGU']) ? true : false;
 
 /**
@@ -32,7 +34,7 @@ require './secure/regex.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./semantic/out/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./scripts/css/style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB et WEB mobile</title>
@@ -43,55 +45,56 @@ require './secure/regex.php';
 
     <div class="ui fluid container">
         <header class="ui inverted blue segment">
-            <h1 class="ui center aligned header">Cédric FAMIBELLE-PRONZOLA
-                <div class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</div>
+            <h1 class="ui center aligned header"></strong>Cédric FAMIBELLE-PRONZOLA</strong>
+                <em class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</em>
             </h1>
+            <noscript>
+                <h2 class="ui center aligned header"><i style="color: red">Pour une meilleure expérience lors de la navigation, activez JavaScript.</i></h2>
+            </noscript>
         </header>
     </div>
     <div class="ui tall stacked segment center aligned inverted">
         <h1 class="ui header">
             Projets
-            <div class="sub header"><i style="color: red">Cliquez sur le titre du projet afin d'y accéder.</i></div>
+            <em class="sub header"><i style="color: red">Cliquez sur le titre du projet afin d'y accéder.</i></em>
         </h1>
-        <?php 
-            if($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true):
-        ?>
-            <h1 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis. <em data-emoji="confused" class="small"></em></h1>
-        <?php
-            session_unset();
-            session_destroy();
-            elseif($noCgu):
-        ?>
-            <h1 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Veuillez accepter les conditions générales pour valider le formulaire. <em data-emoji="confused" class="small"></em></h1>
-        <?php
-            session_unset();
-            session_destroy();
-        endif
-        ?>
     </div>
+        <?php
+        if ($noCgu) :
+            ?>
+            <h2 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Veuillez accepter les conditions générales pour valider le formulaire. <em data-emoji="confused" class="small"></em></h2>
+        <?php
+            session_unset();
+            session_destroy();
+        endif;
 
-    <!-- Modal -->
-    <?php include './includes/modal.php' ?>
-    <!--# Modal #-->
+        if ($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true || $emptySubject === true || $emptyMessage === true) :
+            ?>
+            <h2 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis ou certains champs sont vides. <em data-emoji="confused" class="small"></em></h2>
+        <?php
+            session_unset();
+            session_destroy();
+        endif;
+        ?>
 
     <!-- Alertifa Block -->
-    <?php include './includes/alertifa_block.php' ?>
+<?php include './includes/alertifa_block.php' ?>
     <!--# Alertifa Block #-->
 
     <!-- Samnipoufe Block -->
-    <?php include './includes/samnipoufe_block.php' ?>
+<?php include './includes/samnipoufe_block.php' ?>
     <!--# Samnipoufe Block #-->
 
     <!-- Books'IFA Block -->
-    <?php include './includes/booksifa_block.php' ?>
+<?php include './includes/booksifa_block.php' ?>
     <!--# Books'IFA Block #-->
 
     <!-- Space Bullet Block -->
-    <?php include './includes/space_bullet_block.php' ?>
+<?php include './includes/space_bullet_block.php' ?>
     <!--# Space Bullet Block #-->
 
     <!-- Spaceship Hunt Block -->
-    <?php include './includes/spaceship_hunt_block.php' ?>
+<?php include './includes/spaceship_hunt_block.php' ?>
     <!--# Spaceship Hunt Block #-->
 
     <div class="ui tall stacked segment center aligned inverted">
@@ -99,20 +102,41 @@ require './secure/regex.php';
     </div>
 
     <!-- Contact Block -->
-    <?php include './includes/form_contact.php' ?>
+<?php include './includes/form_contact.php' ?>
     <!--# Contact Block #-->
+
+    <!-- Alertifa Modal -->
+<?php include './includes/alertifa_modal.php' ?>
+    <!--# Alertifa Modal #-->
+
+    <!-- Samnipoufè Modal -->
+<?php include './includes/samnipoufe_modal.php' ?>
+    <!--# Samnipoufè Modal #-->
+
+    <!-- Books'IFA Modal -->
+<?php include './includes/booksifa_modal.php' ?>
+    <!--# Books'IFA Modal #-->
+
+    <!-- Space Bullet Modal -->
+<?php include './includes/space_bullet_modal.php' ?>
+    <!--# Space Bullet Modal #-->
+
+    <!-- Spaceship Hunt Modal -->
+<?php include './includes/spaceship_hunt_modal.php' ?>
+    <!--# Spaceship Hunt Modal #-->
+
+    <!-- Conditions Modal -->
+<?php include './includes/conditions_modal.php' ?>
+    <!--# Conditions Modal #-->
 
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">
-            <a class="cgu" href="#">Conditions générales d'utlisation</a>
-            <noscript>
-                <p><a target="_blank" id="cguNoScript" href="./mentions.html">Cliquez ici si JavaScript n'est pas activé</a></p>
-            </noscript>
+            <a class="cgu" target="_blank" href="./mentions.html">Conditions générales d'utlisation</a>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <script src="./semantic/out/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
     <script src="./scripts/js/main.js"></script>
 </body>
 
