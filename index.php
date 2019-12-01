@@ -61,7 +61,7 @@ require './secure/regex.php';
         </h1>
         <?php
         if ($messageOK) :
-        ?>
+            ?>
             <h2 class="ui header" style="color: green"><em data-emoji="relaxed" class="small"></em> Votre message a été envoyé avec succès. <em data-emoji="relaxed" class="small"></em></h2>
         <?php
             session_unset();
@@ -86,23 +86,23 @@ require './secure/regex.php';
     </div>
 
     <!-- Alertifa Block -->
-<?php include './includes/alertifa_block.php' ?>
+    <?php include './includes/alertifa_block.php' ?>
     <!--# Alertifa Block #-->
 
     <!-- Samnipoufe Block -->
-<?php include './includes/samnipoufe_block.php' ?>
+    <?php include './includes/samnipoufe_block.php' ?>
     <!--# Samnipoufe Block #-->
 
     <!-- Books'IFA Block -->
-<?php include './includes/booksifa_block.php' ?>
+    <?php include './includes/booksifa_block.php' ?>
     <!--# Books'IFA Block #-->
 
     <!-- Space Bullet Block -->
-<?php include './includes/space_bullet_block.php' ?>
+    <?php include './includes/space_bullet_block.php' ?>
     <!--# Space Bullet Block #-->
 
     <!-- Spaceship Hunt Block -->
-<?php include './includes/spaceship_hunt_block.php' ?>
+    <?php include './includes/spaceship_hunt_block.php' ?>
     <!--# Spaceship Hunt Block #-->
 
     <div class="ui tall stacked segment center aligned inverted">
@@ -110,31 +110,31 @@ require './secure/regex.php';
     </div>
 
     <!-- Contact Block -->
-<?php include './includes/form_contact.php' ?>
+    <?php include './includes/form_contact.php' ?>
     <!--# Contact Block #-->
 
     <!-- Alertifa Modal -->
-<?php include './includes/alertifa_modal.php' ?>
+    <?php include './includes/alertifa_modal.php' ?>
     <!--# Alertifa Modal #-->
 
     <!-- Samnipoufè Modal -->
-<?php include './includes/samnipoufe_modal.php' ?>
+    <?php include './includes/samnipoufe_modal.php' ?>
     <!--# Samnipoufè Modal #-->
 
     <!-- Books'IFA Modal -->
-<?php include './includes/booksifa_modal.php' ?>
+    <?php include './includes/booksifa_modal.php' ?>
     <!--# Books'IFA Modal #-->
 
     <!-- Space Bullet Modal -->
-<?php include './includes/space_bullet_modal.php' ?>
+    <?php include './includes/space_bullet_modal.php' ?>
     <!--# Space Bullet Modal #-->
 
     <!-- Spaceship Hunt Modal -->
-<?php include './includes/spaceship_hunt_modal.php' ?>
+    <?php include './includes/spaceship_hunt_modal.php' ?>
     <!--# Spaceship Hunt Modal #-->
 
     <!-- Conditions Modal -->
-<?php include './includes/conditions_modal.php' ?>
+    <?php include './includes/conditions_modal.php' ?>
     <!--# Conditions Modal #-->
 
     <footer>
@@ -145,7 +145,7 @@ require './secure/regex.php';
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
-    <script src="./scripts/js/main.js"></script>
+    <script src="./scripts/js/main.min.js"></script>
 </body>
 
 </html>
