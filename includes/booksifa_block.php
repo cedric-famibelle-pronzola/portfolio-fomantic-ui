@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-books raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5.webp">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3.webp">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.webp">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax.webp">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7.webp">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.webp">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb.webp">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5-small.webp">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3-small.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-small.webp">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax-small.webp">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7-small.webp">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql-small.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-small.webp">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb-small.webp">
                     </div>
                 </div>
             </div>

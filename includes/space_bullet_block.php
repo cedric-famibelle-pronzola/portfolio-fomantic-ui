@@ -4,9 +4,9 @@
                 <div class="ui raised segment text red sticky-space-bullet sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.webp">
-                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
+                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser-small.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-small.webp">
                     </div>
                 </div>
             </div>
