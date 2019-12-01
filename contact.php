@@ -87,8 +87,8 @@ if(isset($_POST['sendMessage']))
   $body = $newMessage->message();
   $messagesManager->sendItToMe($newMessage, $sendItToMe, $body);
 
-  var_dump($newMessage);
-
+  $_SESSION['messageOK'] = true;
+  header('Location: ./');
 
 
 }

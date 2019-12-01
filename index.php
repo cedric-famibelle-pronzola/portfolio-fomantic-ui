@@ -7,6 +7,7 @@ $wrongLastName = isset($_SESSION['wrongLastName']) ? true : false;
 $wrongEmail = isset($_SESSION['wrongEmail']) ? true : false;
 $emptySubject = isset($_SESSION['emptySubject']) ? true : false;
 $emptyMessage = isset($_SESSION['emptyMessage']) ? true : false;
+$messageOK = isset($_SESSION['messageOK']) ? true : false;
 $noCgu = isset($_SESSION['noCGU']) ? true : false;
 
 /**
@@ -58,11 +59,17 @@ require './secure/regex.php';
             Projets
             <em class="sub header"><i style="color: red">Cliquez sur le titre du projet afin d'y accéder.</i></em>
         </h1>
-    </div>
         <?php
+        if ($messageOK) :
+        ?>
+            <h2 class="ui header" style="color: green"><em data-emoji="relaxed" class="small"></em> Votre message a été envoyé avec succès. <em data-emoji="relaxed" class="small"></em></h2>
+        <?php
+            session_unset();
+            session_destroy();
+        endif;
         if ($noCgu) :
             ?>
-            <h2 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Veuillez accepter les conditions générales pour valider le formulaire. <em data-emoji="confused" class="small"></em></h2>
+            <h2 class="ui header" style="color: red"><em data-emoji="confused" class="small"></em> Veuillez accepter les conditions générales pour valider le formulaire. <em data-emoji="confused" class="small"></em></h2>
         <?php
             session_unset();
             session_destroy();
@@ -70,12 +77,13 @@ require './secure/regex.php';
 
         if ($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true || $emptySubject === true || $emptyMessage === true) :
             ?>
-            <h2 class="ui header" i style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis ou certains champs sont vides. <em data-emoji="confused" class="small"></em></h2>
+            <h2 class="ui header" style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis ou certains champs sont vides. <em data-emoji="confused" class="small"></em></h2>
         <?php
             session_unset();
             session_destroy();
         endif;
         ?>
+    </div>
 
     <!-- Alertifa Block -->
 <?php include './includes/alertifa_block.php' ?>
