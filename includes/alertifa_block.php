@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-alert raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5.png">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3.png">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.png">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.png">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax.png">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7.png">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql.png">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.png">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb.png">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5.webp">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.webp">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax.webp">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7.webp">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.webp">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb.webp">
                     </div>
                 </div>
             </div>
@@ -27,9 +27,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.png">
+                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/alertifa/alertifa.png"
+                                src="./img/alertifa/alertifa.webp"
                                 alt="Capture 1 de alertifa"
                                 title="Capture 1 de alertifa"
                                 data-inverted=""
@@ -41,9 +41,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.png">
+                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/alertifa/alertifa2.png"
+                                    src="./img/alertifa/alertifa2.webp"
                                     alt="Capture 2 de alertifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -54,9 +54,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.png">
+                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/alertifa/alertifa3.png"
+                                    src="./img/alertifa/alertifa3.webp"
                                     alt="Capture 3 de alertifa"
                                     title="Page d'administration"
                                     data-inverted=""
@@ -74,7 +74,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.png"
+                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.webp"
                         data-position="top center"
                         data-title="Démonstration de Alert'IFA"
                         data-variation="inverted"

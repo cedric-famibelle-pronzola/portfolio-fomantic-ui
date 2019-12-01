@@ -5,10 +5,10 @@
                     <h2 class="ui header red">Outils utilisés
                     </h2> 
                     <div class="ui tiny images">
-                        <img title="Angular 7" alt="Logo Angular" class="ui image" src="./img/logos/angular.png">
-                        <img title="TypeScript" alt="Logo TypeScript" class="ui image" src="./img/logos/ts.png">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.png">
-                        <img title="Firebase" alt="Logo Firebase" class="ui image" src="./img/logos/firebase.png">
+                        <img title="Angular 7" alt="Logo Angular" class="ui image" src="./img/logos/angular.webp">
+                        <img title="TypeScript" alt="Logo TypeScript" class="ui image" src="./img/logos/ts.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.webp">
+                        <img title="Firebase" alt="Logo Firebase" class="ui image" src="./img/logos/firebase.webp">
                     </div>
                 </div>
             </div>
@@ -23,9 +23,9 @@
                         <h2 class="ui header dividing red">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="samnipoufe-1 ui" href="./img/samnipoufe/samnipoufe.png">
+                            <a target="_blank" class="samnipoufe-1 ui" href="./img/samnipoufe/samnipoufe.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/samnipoufe/samnipoufe.png"
+                                src="./img/samnipoufe/samnipoufe.webp"
                                 alt="Capture 1 de Samnipoufè"
                                 title="Samnipoufè (Capture 1)"
                                 data-inverted=""
@@ -37,9 +37,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="samnipoufe-2 ui" href="./img/samnipoufe/samnipoufe2.png">
+                                <a target="_blank" class="samnipoufe-2 ui" href="./img/samnipoufe/samnipoufe2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/samnipoufe/samnipoufe2.png"
+                                    src="./img/samnipoufe/samnipoufe2.webp"
                                     alt="Capture 2 de Samnipoufè"
                                     title="Samnipoufè (Capture 2)"
                                     data-inverted=""
@@ -50,9 +50,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a target="_blank" class="samnipoufe-3 ui" href="./img/samnipoufe/samnipoufe3.png">
+                                <a target="_blank" class="samnipoufe-3 ui" href="./img/samnipoufe/samnipoufe3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/samnipoufe/samnipoufe3.png"
+                                    src="./img/samnipoufe/samnipoufe3.webp"
                                     alt="Capture 3 de Samnipoufè"
                                     title="Samnipoufè (Capture 3)"
                                     data-inverted=""
@@ -70,7 +70,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-samnipoufe" class="ui embed popup-img" data-source="vimeo" data-id="338239583" data-placeholder="./img/samnipoufe/samnipoufe.png"
+                <div id="vimeo-samnipoufe" class="ui embed popup-img" data-source="vimeo" data-id="338239583" data-placeholder="./img/samnipoufe/samnipoufe.webp"
                         data-position="top center"
                         data-title="Démonstration de Samnipoufè"
                         data-variation="inverted"

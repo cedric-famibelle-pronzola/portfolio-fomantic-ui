@@ -37,7 +37,7 @@ require './secure/regex.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./scripts/css/style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB et WEB mobile</title>
     <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier et j'en suis passionné.">
 </head>

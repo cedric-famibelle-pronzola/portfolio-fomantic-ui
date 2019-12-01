@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-books raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5.png">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3.png">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.png">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.png">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax.png">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7.png">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql.png">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.png">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb.png">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5.webp">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery.webp">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax.webp">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7.webp">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4.webp">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb.webp">
                     </div>
                 </div>
             </div>
@@ -27,9 +27,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="booksifa-1 ui" href="./img/booksifa/booksifa.png">
+                            <a target="_blank" class="booksifa-1 ui" href="./img/booksifa/booksifa.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/booksifa/booksifa.png"
+                                src="./img/booksifa/booksifa.webp"
                                 alt="Capture 1 de Booksifa"
                                 title="Modal d'inscription"
                                 data-inverted=""
@@ -41,9 +41,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="booksifa-2 ui" href="./img/booksifa/booksifa2.png">
+                                <a target="_blank" class="booksifa-2 ui" href="./img/booksifa/booksifa2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/booksifa/booksifa2.png"
+                                    src="./img/booksifa/booksifa2.webp"
                                     alt="Capture 2 de Booksifa"
                                     title="Modal de connexion"
                                     data-inverted=""
@@ -54,9 +54,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a target="_blank" class="booksifa-3 ui" href="./img/booksifa/booksifa3.png">
+                                <a target="_blank" class="booksifa-3 ui" href="./img/booksifa/booksifa3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/booksifa/booksifa3.png"
+                                    src="./img/booksifa/booksifa3.webp"
                                     alt="Capture 3 de Booksifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -74,7 +74,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-booksifa" class="ui embed popup-img" data-source="vimeo" data-id="338274928" data-placeholder="./img/booksifa/booksifa3.png"
+                <div id="vimeo-booksifa" class="ui embed popup-img" data-source="vimeo" data-id="338274928" data-placeholder="./img/booksifa/booksifa3.webp"
                         data-position="top center"
                         data-title="Démonstration de Books'IFA"
                         data-variation="inverted"

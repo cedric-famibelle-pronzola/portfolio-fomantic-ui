@@ -4,7 +4,7 @@
 			<div class="sub header">Modal d'inscription</div>
 		</div>
 		<div class="image content">
-			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa.png" class="ui centered fluid image huge rounded">
+			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa.webp" class="ui centered fluid image huge rounded">
 		</div>
 		<i class="window close icon"></i>
 	</div>
@@ -14,7 +14,7 @@
 			<div class="sub header">Modal de connexion</div>
 		</div>
 		<div class="image content">
-			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa2.png" class="ui centered fluid image rounded">
+			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa2.webp" class="ui centered fluid image rounded">
 		</div>
 		<i class="window close icon"></i>
 	</div>
@@ -24,7 +24,7 @@
 			<div class="sub header">Page d'accueil</div>
 		</div>
 		<div class="image content">
-			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa3.png" class="ui centered fluid image rounded">
+			<img title="Capture de Books'IFA" alt="Capture de Books'IFA" src="./img/booksifa/booksifa3.webp" class="ui centered fluid image rounded">
 		</div>
 		<i class="window close icon"></i>
 	</div>

@@ -4,9 +4,9 @@
                 <div class="ui raised segment text red sticky-space-bullet sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.png">
-                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser.png">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4.png">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js.webp">
+                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4.webp">
                     </div>
                 </div>
             </div>
@@ -21,9 +21,9 @@
                         <h2 class="ui header dividing red">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="spacebullet-1 ui" href="./img/spacebullet/spacebullet.png">
+                            <a target="_blank" class="spacebullet-1 ui" href="./img/spacebullet/spacebullet.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/spacebullet/spacebullet.png"
+                                src="./img/spacebullet/spacebullet.webp"
                                 alt="Capture 1 de Space Bullet"
                                 title="Début du jeu"
                                 data-inverted=""
@@ -35,9 +35,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="spacebullet-2 ui" href="./img/spacebullet/spacebullet2.png">
+                                <a target="_blank" class="spacebullet-2 ui" href="./img/spacebullet/spacebullet2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/spacebullet/spacebullet2.png"
+                                    src="./img/spacebullet/spacebullet2.webp"
                                     alt="Capture 2 de Space Bullet"
                                     title="Le joueur 1 dispose d'un bonus"
                                     data-inverted=""
@@ -55,7 +55,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-spacebullet" class="ui embed popup-img" data-source="vimeo" data-id="339968713" data-placeholder="./img/spacebullet/spacebullet.png"
+                <div id="vimeo-spacebullet" class="ui embed popup-img" data-source="vimeo" data-id="339968713" data-placeholder="./img/spacebullet/spacebullet.webp"
                         data-position="top center"
                         data-title="Démonstration de Space Bullet"
                         data-variation="inverted"
