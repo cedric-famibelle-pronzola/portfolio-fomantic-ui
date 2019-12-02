@@ -4,9 +4,9 @@
                 <div class="ui raised segment text red sticky-space-bullet sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
-                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser-small.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-small.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-tiny.webp">
+                        <img title="Phaser" alt="Logo Phaser" class="ui image" src="./img/logos/phaser-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                             <div class="ui">
                                 <a target="_blank" class="spacebullet-2 ui" href="./img/spacebullet/spacebullet2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/spacebullet/spacebullet2.webp"
+                                    src="./img/spacebullet/spacebullet2-small.webp"
                                     alt="Capture 2 de Space Bullet"
                                     title="Le joueur 1 dispose d'un bonus"
                                     data-inverted=""

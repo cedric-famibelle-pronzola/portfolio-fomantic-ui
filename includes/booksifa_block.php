@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-books raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5-small.webp">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3-small.webp">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-small.webp">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax-small.webp">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7-small.webp">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql-small.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-small.webp">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb-small.webp">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image" src="./img/logos/html5-tiny.webp">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3-tiny.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-tiny.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-tiny.webp">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax-tiny.webp">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7-tiny.webp">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb-tiny.webp">
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                         <div class="column ui">
                             <a target="_blank" class="booksifa-1 ui" href="./img/booksifa/booksifa.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/booksifa/booksifa.webp"
+                                src="./img/booksifa/booksifa-small.webp"
                                 alt="Capture 1 de Booksifa"
                                 title="Modal d'inscription"
                                 data-inverted=""
@@ -43,7 +43,7 @@
                             <div class="ui">
                                 <a target="_blank" class="booksifa-2 ui" href="./img/booksifa/booksifa2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/booksifa/booksifa2.webp"
+                                    src="./img/booksifa/booksifa2-small.webp"
                                     alt="Capture 2 de Booksifa"
                                     title="Modal de connexion"
                                     data-inverted=""
@@ -56,7 +56,7 @@
                             <div class="ui">
                                 <a target="_blank" class="booksifa-3 ui" href="./img/booksifa/booksifa3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/booksifa/booksifa3.webp"
+                                    src="./img/booksifa/booksifa3-small.webp"
                                     alt="Capture 3 de Booksifa"
                                     title="Page d'accueil"
                                     data-inverted=""

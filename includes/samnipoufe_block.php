@@ -5,10 +5,10 @@
                     <h2 class="ui header red">Outils utilisés
                     </h2> 
                     <div class="ui tiny images">
-                        <img title="Angular 7" alt="Logo Angular" class="ui image" src="./img/logos/angular-small.webp">
-                        <img title="TypeScript" alt="Logo TypeScript" class="ui image" src="./img/logos/ts-small.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-small.webp">
-                        <img title="Firebase" alt="Logo Firebase" class="ui image" src="./img/logos/firebase-small.webp">
+                        <img title="Angular 7" alt="Logo Angular" class="ui image" src="./img/logos/angular-tiny.webp">
+                        <img title="TypeScript" alt="Logo TypeScript" class="ui image" src="./img/logos/ts-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="Firebase" alt="Logo Firebase" class="ui image" src="./img/logos/firebase-tiny.webp">
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                         <div class="column ui">
                             <a target="_blank" class="samnipoufe-1 ui" href="./img/samnipoufe/samnipoufe.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/samnipoufe/samnipoufe.webp"
+                                src="./img/samnipoufe/samnipoufe-small.webp"
                                 alt="Capture 1 de Samnipoufè"
                                 title="Samnipoufè (Capture 1)"
                                 data-inverted=""
@@ -39,7 +39,7 @@
                             <div class="ui">
                                 <a target="_blank" class="samnipoufe-2 ui" href="./img/samnipoufe/samnipoufe2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/samnipoufe/samnipoufe2.webp"
+                                    src="./img/samnipoufe/samnipoufe2-small.webp"
                                     alt="Capture 2 de Samnipoufè"
                                     title="Samnipoufè (Capture 2)"
                                     data-inverted=""
@@ -52,7 +52,7 @@
                             <div class="ui">
                                 <a target="_blank" class="samnipoufe-3 ui" href="./img/samnipoufe/samnipoufe3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/samnipoufe/samnipoufe3.webp"
+                                    src="./img/samnipoufe/samnipoufe3-small.webp"
                                     alt="Capture 3 de Samnipoufè"
                                     title="Samnipoufè (Capture 3)"
                                     data-inverted=""

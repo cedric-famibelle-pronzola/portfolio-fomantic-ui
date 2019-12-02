@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-alert raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5-small.webp">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3-small.webp">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-small.webp">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax-small.webp">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7-small.webp">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql-small.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-small.webp">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb-small.webp">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5-tiny.webp">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image" src="./img/logos/css3-tiny.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-tiny.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-tiny.webp">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image" src="./img/logos/ajax-tiny.webp">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image" src="./img/logos/php7-tiny.webp">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image" src="./img/logos/mysql-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image" src="./img/logos/mdb-tiny.webp">
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                         <div class="column ui">
                             <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/alertifa/alertifa.webp"
+                                src="./img/alertifa/alertifa-small.webp"
                                 alt="Capture 1 de alertifa"
                                 title="Capture 1 de alertifa"
                                 data-inverted=""
@@ -43,7 +43,7 @@
                             <div class="ui">
                                 <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/alertifa/alertifa2.webp"
+                                    src="./img/alertifa/alertifa2-small.webp"
                                     alt="Capture 2 de alertifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -56,7 +56,7 @@
                             <div class="ui">
                                 <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.webp">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/alertifa/alertifa3.webp"
+                                    src="./img/alertifa/alertifa3-small.webp"
                                     alt="Capture 3 de alertifa"
                                     title="Page d'administration"
                                     data-inverted=""

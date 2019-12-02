@@ -4,9 +4,9 @@
                 <div class="ui raised segment text blue sticky-spaceship-hunt sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-small.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-small.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-small.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-tiny.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                         <div class="column ui">
                             <a target="_blank" class="spaceship-hunt-1 ui" href="./img/spaceship-hunt/spaceship-hunt.webp">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/spaceship-hunt/spaceship-hunt.webp"
+                                src="./img/spaceship-hunt/spaceship-hunt-small.webp"
                                 alt="Capture 1 de Spaceship Hunt"
                                 title="Capture 1 de Spaceship Hunt"
                                 data-inverted=""
@@ -37,7 +37,7 @@
                             <div class="ui">
                                 <a target="_blank" class="spaceship-hunt-2 ui" href="./img/spaceship-hunt/spaceship-hunt2.webp">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/spaceship-hunt/spaceship-hunt2.webp"
+                                    src="./img/spaceship-hunt/spaceship-hunt2-small.webp"
                                     alt="Capture 2 de Spaceship Hunt"
                                     title="Capture 2 de alertifa"
                                     data-inverted=""
