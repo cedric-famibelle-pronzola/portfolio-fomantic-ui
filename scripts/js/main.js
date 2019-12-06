@@ -116,6 +116,7 @@ $(function () {
 
     if ($(window).width() < 768) {
       $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
+        .removeClass('sticky')
         .sticky({
           context: false
         });
@@ -125,6 +126,7 @@ $(function () {
 
   if ($(window).width() < 768) {
     $('.sticky-alert, .sticky-samnipoufe, .sticky-books, .sticky-space-bullet, .sticky-spaceship-hunt')
+      .removeClass('sticky')
       .sticky({
         context: false
       });

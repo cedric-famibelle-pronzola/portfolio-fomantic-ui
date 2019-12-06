@@ -36,9 +36,24 @@ require './secure/regex.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="./scripts/css/style.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        noscript>a {
+            text-align: center;
+            background-color: black;
+            font-weight: bold;
+        }
+
+        #slogan {
+            margin-top: 1em;
+            margin-bottom: -1em;
+        }
+    </style>
     <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
-    <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB et WEB mobile</title>
+    <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB</title>
     <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier et j'en suis passionné.">
 </head>
 
@@ -46,8 +61,13 @@ require './secure/regex.php';
 
     <div class="ui fluid container">
         <header class="ui inverted blue segment">
-            <h1 class="ui center aligned header"></strong>Cédric FAMIBELLE-PRONZOLA</strong>
-                <em class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</em>
+            <h1 class="ui header">
+            <div class="ui grid container aligned centered">
+                <div class="ui left floated"><a data-position="bottom center" data-tooltip="VKontact" target="_blank" href="https://vk.com/cedric_famibelle_pronzola"><i class="vk icon link large inverted"></i></a></div>
+                    <div></strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
+                <div class="ui right floated"><a data-position="bottom center" data-tooltip="Telegram" target="_blank" href="https://t.me/cedric_famibelle_pronzola"><i class="telegram plane icon link large inverted"></i></a></div>
+            </div>
+                <em id="slogan" class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</em>
             </h1>
             <noscript>
                 <h2 class="ui center aligned header"><i style="color: red">Pour une meilleure expérience lors de la navigation, activez JavaScript.</i></h2>

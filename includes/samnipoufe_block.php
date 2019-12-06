@@ -5,10 +5,10 @@
                     <h2 class="ui header red">Outils utilisés
                     </h2> 
                     <div class="ui tiny images">
-                        <img title="Angular 7" alt="Logo Angular" class="ui image" src="./img/logos/angular-tiny.webp">
-                        <img title="TypeScript" alt="Logo TypeScript" class="ui image" src="./img/logos/ts-tiny.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
-                        <img title="Firebase" alt="Logo Firebase" class="ui image" src="./img/logos/firebase-tiny.webp">
+                        <img title="Angular 7" alt="Logo Angular" class="ui image popup-img" src="./img/logos/angular-tiny.webp">
+                        <img title="TypeScript" alt="Logo TypeScript" class="ui image popup-img" src="./img/logos/ts-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="Firebase" alt="Logo Firebase" class="ui image popup-img" src="./img/logos/firebase-tiny.webp">
                     </div>
                 </div>
             </div>

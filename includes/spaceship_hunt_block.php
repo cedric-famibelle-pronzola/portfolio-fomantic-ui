@@ -4,9 +4,9 @@
                 <div class="ui raised segment text blue sticky-spaceship-hunt sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image" src="./img/logos/js-tiny.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image" src="./img/logos/jquery-tiny.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image popup-img" src="./img/logos/js-tiny.webp">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image popup-img" src="./img/logos/jquery-tiny.webp">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.webp">
                     </div>
                 </div>
             </div>
