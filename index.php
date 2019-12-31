@@ -159,7 +159,7 @@ require './secure/regex.php';
 
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">
-            <a class="cgu" target="_blank" href="./mentions.html">Conditions générales d'utlisation</a>
+            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a>
         </div>
     </footer>
 
