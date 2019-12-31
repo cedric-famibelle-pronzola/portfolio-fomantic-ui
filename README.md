@@ -19,7 +19,7 @@
 # Installation
 
 Après avoir décompressé ou cloné le repo, accédez au dossier et installez les dépendances grâce aux commandes suivantes (à effectuer dans le terminal) :
-- $ `cd fomantic-ui` (accès au dossier)
+- $ `cd portfolio-fomantic-ui` (accès au dossier)
 - $ `npm i` (installation des dépendances)
 
 # Configuration
