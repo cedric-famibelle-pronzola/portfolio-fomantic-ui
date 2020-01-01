@@ -3,7 +3,7 @@
 $server = "localhost";
 $dbname = "semantic";
 $user = "semantic";
-$pass_db = "semantic";
+$pass_db = "Semantic57*";
 
 try {
     $db = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass_db);
