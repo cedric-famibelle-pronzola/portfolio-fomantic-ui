@@ -30,9 +30,9 @@ Accédez tout d'abord au fichier [connect.php](./secure/connect.php) qui se trou
 
 ```php
 3 $server = "localhost";  // adresse du serveur
-4 $dbname = "semantic";   // nom de la base de données
-5 $user = "semantic";     // nom d'utilisateur
-6 $pass_db = "semantic";  // mot de passe
+4 $dbname = "fomantic";   // nom de la base de données
+5 $user = "fomantic";     // nom d'utilisateur
+6 $pass_db = "Fomantic57*";  // mot de passe
 ```
 *Pensez à importer la [base de données](./bdd/messages.sql).*
 
