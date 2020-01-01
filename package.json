@@ -9,8 +9,10 @@
   "author": "Cédric FAMIBELLE-PRONZOLA",
   "license": "ISC",
   "dependencies": {
+    "diff": "^3.5.0",
     "fomantic-ui": "^2.8.2",
     "fomantic-ui-css": "^2.8.2",
-    "fomantic-ui-less": "^2.8.2"
+    "fomantic-ui-less": "^2.8.2",
+    "lodash.template": "^4.5.0"
   }
 }
