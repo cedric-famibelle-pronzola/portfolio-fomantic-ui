@@ -61,14 +61,14 @@ require './secure/regex.php';
 
     <div class="ui fluid container">
         <header class="ui inverted blue segment">
-            <h1 class="ui header">
+            <div class="ui huge header">
             <div class="ui grid container aligned centered">
                 <div class="ui left floated"><a data-position="bottom center" data-tooltip="VKontact" target="_blank" href="https://vk.com/cedric_famibelle_pronzola"><i class="vk icon link large inverted"></i></a></div>
-                    <div></strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
+                    <div><strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
                 <div class="ui right floated"><a data-position="bottom center" data-tooltip="Telegram" target="_blank" href="https://t.me/cedric_famibelle_pronzola"><i class="telegram plane icon link large inverted"></i></a></div>
             </div>
                 <em id="slogan" class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier et j'en suis passionné.</em>
-            </h1>
+            </div>
             <noscript>
                 <h2 class="ui center aligned header"><i style="color: red">Pour une meilleure expérience lors de la navigation, activez JavaScript.</i></h2>
             </noscript>
