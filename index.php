@@ -54,7 +54,8 @@ require './secure/regex.php';
     </style>
     <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB</title>
-    <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier et j'en suis passionné.">
+    <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier.
+    Site réalisé avec Fomantic UI">
 </head>
 
 <body>
