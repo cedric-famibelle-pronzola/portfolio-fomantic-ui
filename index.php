@@ -129,13 +129,13 @@
     <!--# Spaceship Hunt Modal #-->
 
     <footer>
-        <div id="footer" class="ui tall stacked segment center aligned inverted">
-            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a> | 
-            <a rel="me" href="https://mamot.fr/@ced972">Mastodon</a>
-        </div>
-    <!-- Conditions Modal -->
+        <!-- Conditions Modal -->
         <?php include './includes/conditions_modal.php' ?>
-    <!--# Conditions Modal #-->
+        <!--# Conditions Modal #-->
+        <div style="display: flex; justify-content:space-around;" id="footer" class="ui tall stacked segment center aligned inverted">
+            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a>
+            <a rel="me" href="https://mamot.fr/@ced972"><img title='Mastodon' alt='logo mastodon' width="32" height="32" src="./img/logos/mastodon.svg" alt=""></a>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
