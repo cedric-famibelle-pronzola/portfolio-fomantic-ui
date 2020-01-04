@@ -159,8 +159,12 @@ require './secure/regex.php';
 
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">
-            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a>
+            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a> | 
+            <a rel="me" href="https://mamot.fr/@ced972">Mastodon</a>
         </div>
+    <!-- Conditions Modal -->
+        <?php include './includes/conditions_modal.php' ?>
+    <!--# Conditions Modal #-->
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
