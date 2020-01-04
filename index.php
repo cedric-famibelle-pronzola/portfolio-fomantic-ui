@@ -154,10 +154,6 @@ require './secure/regex.php';
     <?php include './includes/spaceship_hunt_modal.php' ?>
     <!--# Spaceship Hunt Modal #-->
 
-    <!-- Conditions Modal -->
-    <?php include './includes/conditions_modal.php' ?>
-    <!--# Conditions Modal #-->
-
     <footer>
         <div id="footer" class="ui tall stacked segment center aligned inverted">
             <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a> | 
