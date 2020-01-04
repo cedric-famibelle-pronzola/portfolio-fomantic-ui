@@ -1,4 +1,4 @@
-# Portfolio réalisé avec *Fomatic UI*
+# Portfolio réalisé avec *Fomantic UI (fork de Semantic UI)*
 
 # Table des matières
 - # [Prérequis](#prérequis)
