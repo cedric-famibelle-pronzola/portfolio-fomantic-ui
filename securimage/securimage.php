@@ -499,13 +499,13 @@ class Securimage
      *
      * @var double
      */
-    public $perturbation = 0.85;
+    public $perturbation = 0;
 
     /**
      * How many lines to draw over the captcha code to increase security
      * @var int
      */
-    public $num_lines    = 5;
+    public $num_lines    = 0;
 
     /**
      * The level of noise (random dots) to place on the image, 0-10
@@ -553,7 +553,7 @@ class Securimage
      * @see Securimage::$database_driver
      * @var bool
      */
-    public $use_database = false;
+    public $use_database = true;
 
     /**
      * Whether or not to skip checking if Securimage tables exist when using a
@@ -574,7 +574,7 @@ class Securimage
      *
      * @var string
      */
-    public $database_driver = self::SI_DRIVER_SQLITE3;
+    public $database_driver = self::SI_DRIVER_MYSQL;
 
     /**
      * Database host to connect to when using mysql or postgres
@@ -585,7 +585,7 @@ class Securimage
      *
      * @var string
      */
-    public $database_host   = 'localhost';
+    public $database_host   = DbInfos::HOST;
 
     /**
      * Database username for connection (mysql, postgres only)
@@ -593,7 +593,7 @@ class Securimage
      *
      * @var string
      */
-    public $database_user   = '';
+    public $database_user   = DbInfos::USER;
 
     /**
      * Database password for connection (mysql, postgres only)
@@ -601,7 +601,7 @@ class Securimage
      *
      * @var string
      */
-    public $database_pass   = '';
+    public $database_pass   = DbInfos::PASS;
 
     /**
      * Name of the database to select (mysql, postgres only)
@@ -609,7 +609,7 @@ class Securimage
      * @see Securimage::$database_file for SQLite
      * @var string
      */
-    public $database_name   = '';
+    public $database_name   = DbInfos::DB_NAME;
 
     /**
      * Database table where captcha codes are stored
@@ -648,7 +648,7 @@ class Securimage
      * @see Securimage::$wordlist_file wordlist_file property
      * @var int
      */
-    public $captcha_type  = self::SI_CAPTCHA_STRING; // or self::SI_CAPTCHA_MATHEMATIC, or self::SI_CAPTCHA_WORDS;
+    public $captcha_type  = self::SI_CAPTCHA_MATHEMATIC; // or self::SI_CAPTCHA_MATHEMATIC, or self::SI_CAPTCHA_WORDS;
 
     /**
      * The captcha namespace used for having multiple captchas on a page or
@@ -963,7 +963,7 @@ class Securimage
      *
      * @var bool If true, no session will be started; if false, session will be started and used to store data (default)
      */
-    protected $no_session;
+    protected $no_session = true;
 
     /**
      * Flag indicating whether or not HTTP headers will be sent when outputting
@@ -1095,7 +1095,7 @@ class Securimage
         }
 
         if (is_null($this->audio_path)) {
-            $this->audio_path = $this->securimage_path . '/audio/en/';
+            $this->audio_path = $this->securimage_path . '/audio/fr/';
         }
 
         if (is_null($this->audio_noise_path)) {
@@ -1365,7 +1365,7 @@ class Securimage
         $show_input        = (isset($options['show_text_input'])) ? (bool)$options['show_text_input'] : true;
         $refresh_alt       = (isset($options['refresh_alt_text'])) ? $options['refresh_alt_text'] : 'Refresh Image';
         $refresh_title     = (isset($options['refresh_title_text'])) ? $options['refresh_title_text'] : 'Refresh Image';
-        $input_text        = (isset($options['input_text'])) ? $options['input_text'] : 'Type the text:';
+        $input_text        = (isset($options['input_text'])) ? $options['input_text'] : 'Résultat du calcul';
         $input_id          = (isset($options['input_id'])) ? $options['input_id'] : 'captcha_code';
         $input_name        = (isset($options['input_name'])) ? $options['input_name'] :  $input_id;
         $input_attrs       = (isset($options['input_attributes'])) ? $options['input_attributes'] : array();

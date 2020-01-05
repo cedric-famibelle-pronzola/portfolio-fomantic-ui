@@ -26,13 +26,13 @@ Après avoir décompressé ou cloné le repo, accédez au dossier et installez l
 
 ## Base de données
 
-Accédez tout d'abord au fichier [connect.php](./secure/connect.php) qui se trouve ici -> `/secure/connect.php`. Ce dernier contient les variables vous permettant de vous connecter à la base de données. Vous pouvez modifier les informations à votre convenance.
+Accédez tout d'abord au fichier [DbInfos.php](./classes/DbInfos.php) qui se trouve ici -> `/classes/DbInfos.php`. Ce dernier contient les constantes vous permettant de vous connecter à la base de données. Vous pouvez modifier les informations à votre convenance.
 
 ```php
-3 $server = "localhost";  // adresse du serveur
-4 $dbname = "fomantic";   // nom de la base de données
-5 $user = "fomantic";     // nom d'utilisateur
-6 $pass_db = "Fomantic57*";  // mot de passe
+4 CONST HOST = 'localhost';     // adresse du serveur
+5 CONST DB_NAME = 'fomantic';   // nom de la base de données
+6 CONST USER = 'fomantic';      // nom d'utilisateur
+7 CONST PASS = 'Fomantic57*';   // mot de passe
 ```
 *Pensez à importer la [base de données](./bdd/messages.sql).*
 
@@ -50,14 +50,14 @@ Il faudra ensuite configurer [PHPMailer](./classes/MessagesManager.php#L67) (uti
 76 $sendItToMe->Password = 'pass';        // mot de passe (exemple -> Dr.Stone)
 77 $sendItToMe->SMTPSecure = 'tls';
 78 $sendItToMe->Port = 587;
-
+79
 80 $sendItToMe->setFrom("username", "WebContact -> " . $message->firstName() . ' ' . $message->lastName() . ' ( ' . $message->email() . ' )');
 81 $sendItToMe->addAddress('username');
-
+82
 83 $sendItToMe->isHTML(true);
 84 $sendItToMe->Subject = $message->subject();
 85 $sendItToMe->Body = "$body";
-
+86
 87 $sendItToMe->send();
 ```
 

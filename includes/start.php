@@ -9,8 +9,7 @@ $emptySubject = isset($_SESSION['emptySubject']) ? true : false;
 $emptyMessage = isset($_SESSION['emptyMessage']) ? true : false;
 $messageOK = isset($_SESSION['messageOK']) ? true : false;
 $noCgu = isset($_SESSION['noCGU']) ? true : false;
-
-var_dump($wrongFirstName, $wrongLastName, $wrongEmail, $emptySubject, $emptyMessage, $messageOK, $noCgu);
+$captcha = isset($_SESSION['wrongCaptcha']) ? true : false;
 
 /**
  * permet de lier l'instanciation de la casse avec les fichiers présents dans le dossier 'classes'
@@ -25,5 +24,5 @@ function chargerClasse($classe)
     require './classes/' . $classe . '.php';
 }
 
-require './secure/connect.php';
+spl_autoload_register('chargerClasse');
 require './secure/regex.php';

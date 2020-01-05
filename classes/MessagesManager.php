@@ -22,7 +22,7 @@ class MessagesManager
    * @param  integer $id ID d'un utilisateur
    * @return object Retourne l'objet Users
    */
-  public function get(Message $messageId)
+  public function get(Messages $messageId)
   {
 
     $id = $messageId->messageId();
