@@ -1,3 +1,7 @@
+	<?php	
+		include_once './securimage/securimage.php';
+	?>
+
 	<div class="ui inverted segment container">
 		<form class="ui form inverted" method="POST" action="./contact.php">
 			<div class="field required">
@@ -20,7 +24,10 @@
 				<label>Votre message</label>
 				<textarea name="message" rows="3" placeholder="Ecrivez votre message"></textarea>
 			</div>
-			<div class="field required">
+			<div style="margin: 2em 0;" class="five wide field">
+				<?=Securimage::getCaptchaHtml(Securimage::class); ?>
+			</div>
+			<div style="margin-bottom: 2em" class="field required">
 				<div class="ui toggle checkbox">
 					<input type="checkbox" name="checkbox">
 					<label> <a target="_blank" class="cgu" href="./mentions/mentions.html">J'accepte les conditions générales d'ulisation</a></label>

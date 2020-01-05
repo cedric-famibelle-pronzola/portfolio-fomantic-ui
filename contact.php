@@ -2,6 +2,11 @@
 
 session_start();
 
+require_once './classes/DbInfos.php';
+include_once './securimage/securimage.php';
+
+$securimage = new Securimage();
+
 mb_internal_encoding('UTF-8');
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -10,13 +15,13 @@ require_once 'PHPMailer/Exception.php';
 require_once 'PHPMailer/PHPMailer.php';
 require_once 'PHPMailer/SMTP.php';
 
-include './secure/connect.php';
 include './secure/regex.php';
 include './secure/functions.php';
 
 spl_autoload_register('chargerClasse');             # permet de charger les classes
 
-$messagesManager = new MessagesManager($db);
+$db = new DbInfos;
+$messagesManager = new MessagesManager($db->connect());
 $regexEmail = '[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})';
 $regexName = '^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ._\s-]{2,30}$';
 
@@ -29,6 +34,8 @@ if(isset($_POST['sendMessage']))
   $subject = htmlspecialchars(trim($_POST['subject']));
   $message = htmlspecialchars(trim($_POST['message']));
   $cgu = isset($_POST['checkbox']) ? true : false;
+  $securimage = new Securimage();
+  $checkCaptcha = $securimage->check($_POST['captcha_code']);
 
   if(!$cgu)
   {
@@ -79,6 +86,12 @@ if(isset($_POST['sendMessage']))
     'subject' => $subject,
     'message' => $message,
   );
+
+  if (!$checkCaptcha) {
+    $_SESSION['wrongCaptcha'] = true;
+    header('Location: ./');
+    return;
+  }
 
   $newMessage = new Messages($messageArray);
   $messagesManager->addMessage($newMessage);
