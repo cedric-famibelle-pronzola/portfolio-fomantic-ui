@@ -12,7 +12,7 @@ class DbInfos {
       $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (PDOException $e) {
         $db= null;
-        echo '<span style="color: red; font-weight: bold;">' . $e->getMessage() . '</span>';
+        echo '<span style="color: red; font-weight: bold; font-size: 1em;">' . $e->getMessage() . '</span>';
         return;
     }
   }

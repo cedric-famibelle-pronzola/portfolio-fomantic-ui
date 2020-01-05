@@ -35,18 +35,20 @@
 <body>
 
     <div class="ui fluid container">
-        <header class="ui inverted blue segment">
+        <header style="padding-bottom: 2em;" class="ui inverted blue segment">
             <div class="ui huge header">
-            <div class="ui grid container aligned centered">
-                <?php new DbInfos; ?>
-                <div class="ui left floated"><a data-position="bottom center" data-tooltip="VKontact" target="_blank" href="https://vk.com/cedric_famibelle_pronzola"><i class="vk icon link large inverted"></i></a></div>
-                    <div><strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
-                <div class="ui right floated"><a data-position="bottom center" data-tooltip="Telegram" target="_blank" href="https://t.me/cedric_famibelle_pronzola"><i class="telegram plane icon link large inverted"></i></a></div>
-            </div>
+                <div class="ui grid container aligned centered">
+                    <div style="text-align: center;">
+                        <?php new DbInfos; ?>
+                    </div> 
+                    <div class="ui left floated"><a data-position="bottom center" data-tooltip="VKontact" target="_blank" href="https://vk.com/cedric_famibelle_pronzola"><i class="vk icon link large inverted"></i></a></div>
+                        <div><strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
+                    <div class="ui right floated"><a data-position="bottom center" data-tooltip="Telegram" target="_blank" href="https://t.me/cedric_famibelle_pronzola"><i class="telegram plane icon link large inverted"></i></a></div>
+                </div>
                 <em id="slogan" class="ui sub header center aligned primary" style="color: yellow">Créer, développer, c'est mon métier.</em>
             </div>
             <noscript>
-                <h2 class="ui center aligned header"><i style="color: red">Pour une meilleure expérience lors de la navigation, activez JavaScript.</i></h2>
+                <h2 style="margin-top: 1em;" class="ui center aligned header"><i style="color: red">Pour une meilleure expérience lors de la navigation, activez JavaScript.</i></h2>
             </noscript>
         </header>
     </div>
