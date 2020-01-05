@@ -38,6 +38,7 @@
         <header class="ui inverted blue segment">
             <div class="ui huge header">
             <div class="ui grid container aligned centered">
+                <?php new DbInfos; ?>
                 <div class="ui left floated"><a data-position="bottom center" data-tooltip="VKontact" target="_blank" href="https://vk.com/cedric_famibelle_pronzola"><i class="vk icon link large inverted"></i></a></div>
                     <div><strong>Cédric FAMIBELLE-PRONZOLA</strong></div>
                 <div class="ui right floated"><a data-position="bottom center" data-tooltip="Telegram" target="_blank" href="https://t.me/cedric_famibelle_pronzola"><i class="telegram plane icon link large inverted"></i></a></div>
@@ -69,7 +70,13 @@
             session_unset();
             session_destroy();
         endif;
-
+        if ($captcha) :
+            ?>
+            <h2 class="ui header" style="color: red"><em data-emoji="confused" class="small"></em> Calcul faux. Veuillez réessayer... <em data-emoji="abacus" class="small"></em></h2>
+        <?php
+            session_unset();
+            session_destroy();
+        endif;
         if ($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true || $emptySubject === true || $emptyMessage === true) :
             ?>
             <h2 class="ui header" style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis ou certains champs sont vides. <em data-emoji="confused" class="small"></em></h2>
@@ -132,9 +139,12 @@
         <!-- Conditions Modal -->
         <?php include './includes/conditions_modal.php' ?>
         <!--# Conditions Modal #-->
-        <div style="display: flex; justify-content:space-around;" id="footer" class="ui tall stacked segment center aligned inverted">
-            <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a>
-            <a rel="me" href="https://mamot.fr/@ced972"><img title='Mastodon' alt='logo mastodon' width="32" height="32" src="./img/logos/mastodon.svg" alt=""></a>
+        <div id="footer" class="ui tall stacked segment center aligned inverted">
+            <div class="ui container" style="display: flex; justify-content:space-between; margin-top: 1em;">
+                <a target="_blank" href="https://www.phpcaptcha.org/"><img title='Secure Image' alt='logo Secure Image' src="https://www.phpcaptcha.org/logos/securimage-80x15.png" alt=""></a>
+                <a class="cgu" target="_blank" href="./mentions/mentions.html">Conditions générales d'utlisation</a>
+                <a rel="me" href="https://mamot.fr/@ced972"><img title='Mastodon' alt='logo mastodon' width="32" height="32" src="./img/logos/mastodon.svg" alt=""></a>
+            </div>
         </div>
     </footer>
 
