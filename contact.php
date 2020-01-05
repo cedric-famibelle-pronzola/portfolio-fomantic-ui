@@ -2,6 +2,10 @@
 
 session_start();
 
+// include_once './securimage/securimage.php';
+
+// $securimage = new Securimage();
+
 mb_internal_encoding('UTF-8');
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -79,6 +83,12 @@ if(isset($_POST['sendMessage']))
     'subject' => $subject,
     'message' => $message,
   );
+
+  // if ($securimage->check($_POST['captcha_code']) === false) {
+  //   $_SESSION['wrongCaptcha'] = true;
+  //   header('Location: ./');
+  //   return;
+  // }
 
   $newMessage = new Messages($messageArray);
   $messagesManager->addMessage($newMessage);

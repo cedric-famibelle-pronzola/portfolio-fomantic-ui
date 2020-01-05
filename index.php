@@ -70,6 +70,7 @@
             session_destroy();
         endif;
 
+
         if ($wrongFirstName === true || $wrongLastName === true || $wrongEmail === true || $emptySubject === true || $emptyMessage === true) :
             ?>
             <h2 class="ui header" style="color: red"><em data-emoji="confused" class="small"></em> Certaines données du formulaires n'ont pas le format requis ou certains champs sont vides. <em data-emoji="confused" class="small"></em></h2>

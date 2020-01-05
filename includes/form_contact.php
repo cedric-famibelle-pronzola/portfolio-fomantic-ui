@@ -20,7 +20,8 @@
 				<label>Votre message</label>
 				<textarea name="message" rows="3" placeholder="Ecrivez votre message"></textarea>
 			</div>
-			<div class="field required">
+
+			<div style="margin-bottom: 2em" class="field required">
 				<div class="ui toggle checkbox">
 					<input type="checkbox" name="checkbox">
 					<label> <a target="_blank" class="cgu" href="./mentions/mentions.html">J'accepte les conditions générales d'ulisation</a></label>
