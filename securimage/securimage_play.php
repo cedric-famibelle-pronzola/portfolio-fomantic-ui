@@ -33,7 +33,7 @@
  * @package Securimage
  *
  */
-
+require_once '../classes/DbInfos.php';
 require_once dirname(__FILE__) . '/securimage.php';
 
 // if using database, adjust these options as necessary and change $img = new Securimage(); to $img = new Securimage($options);
@@ -67,4 +67,5 @@ if (!empty($_GET['namespace'])) $img->setNamespace($_GET['namespace']);
 // mp3 or wav format
 $format = (isset($_GET['format']) && strtolower($_GET['format']) == 'mp3') ? 'mp3' : null;
 
+$img->audio_path = $img->securimage_path . '/audio/fr/';
 $img->outputAudioFile($format);
