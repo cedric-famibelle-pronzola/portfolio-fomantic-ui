@@ -499,7 +499,7 @@ class Securimage
      *
      * @var double
      */
-    public $perturbation = 0;
+    public $perturbation = 1;
 
     /**
      * How many lines to draw over the captcha code to increase security
@@ -511,7 +511,7 @@ class Securimage
      * The level of noise (random dots) to place on the image, 0-10
      * @var int
      */
-    public $noise_level  = 2;
+    public $noise_level  = 10;
 
     /**
      * The signature text to draw on the bottom corner of the image
