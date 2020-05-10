@@ -27,9 +27,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.webp">
+                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/alertifa/alertifa-small.webp"
+                                src="./img/alertifa/alertifa-small.svg"
                                 alt="Capture 1 de alertifa"
                                 title="Capture 1 de alertifa"
                                 data-inverted=""
@@ -41,9 +41,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.webp">
+                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/alertifa/alertifa2-small.webp"
+                                    src="./img/alertifa/alertifa2-small.svg"
                                     alt="Capture 2 de alertifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -54,9 +54,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.webp">
+                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.svg">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/alertifa/alertifa3-small.webp"
+                                    src="./img/alertifa/alertifa3-small.svg"
                                     alt="Capture 3 de alertifa"
                                     title="Page d'administration"
                                     data-inverted=""
@@ -74,7 +74,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.webp"
+                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.svg"
                         data-position="top center"
                         data-title="Démonstration de Alert'IFA"
                         data-variation="inverted"
