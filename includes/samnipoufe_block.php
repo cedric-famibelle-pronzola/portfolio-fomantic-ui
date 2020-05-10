@@ -23,9 +23,9 @@
                         <h2 class="ui header dividing red">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="samnipoufe-1 ui" href="./img/samnipoufe/samnipoufe.webp">
+                            <a target="_blank" class="samnipoufe-1 ui" href="./img/samnipoufe/samnipoufe.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/samnipoufe/samnipoufe-small.webp"
+                                src="./img/samnipoufe/samnipoufe-small.svg"
                                 alt="Capture 1 de Samnipoufè"
                                 title="Samnipoufè (Capture 1)"
                                 data-inverted=""
@@ -37,9 +37,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="samnipoufe-2 ui" href="./img/samnipoufe/samnipoufe2.webp">
+                                <a target="_blank" class="samnipoufe-2 ui" href="./img/samnipoufe/samnipoufe2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/samnipoufe/samnipoufe2-small.webp"
+                                    src="./img/samnipoufe/samnipoufe2-small.svg"
                                     alt="Capture 2 de Samnipoufè"
                                     title="Samnipoufè (Capture 2)"
                                     data-inverted=""
@@ -50,9 +50,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a target="_blank" class="samnipoufe-3 ui" href="./img/samnipoufe/samnipoufe3.webp">
+                                <a target="_blank" class="samnipoufe-3 ui" href="./img/samnipoufe/samnipoufe3.svg">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/samnipoufe/samnipoufe3-small.webp"
+                                    src="./img/samnipoufe/samnipoufe3-small.svg"
                                     alt="Capture 3 de Samnipoufè"
                                     title="Samnipoufè (Capture 3)"
                                     data-inverted=""
@@ -70,7 +70,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-samnipoufe" class="ui embed popup-img" data-source="vimeo" data-id="338239583" data-placeholder="./img/samnipoufe/samnipoufe.webp"
+                <div id="vimeo-samnipoufe" class="ui embed popup-img" data-source="vimeo" data-id="338239583" data-placeholder="./img/samnipoufe/samnipoufe.svg"
                         data-position="top center"
                         data-title="Démonstration de Samnipoufè"
                         data-variation="inverted"
