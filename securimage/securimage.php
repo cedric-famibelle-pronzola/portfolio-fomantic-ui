@@ -505,7 +505,7 @@ class Securimage
      * How many lines to draw over the captcha code to increase security
      * @var int
      */
-    public $num_lines    = 0;
+    public $num_lines    = 3;
 
     /**
      * The level of noise (random dots) to place on the image, 0-10
