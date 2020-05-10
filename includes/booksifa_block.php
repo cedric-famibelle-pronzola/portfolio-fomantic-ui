@@ -27,9 +27,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="booksifa-1 ui" href="./img/booksifa/booksifa.webp">
+                            <a target="_blank" class="booksifa-1 ui" href="./img/booksifa/booksifa.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/booksifa/booksifa-small.webp"
+                                src="./img/booksifa/booksifa-small.svg"
                                 alt="Capture 1 de Booksifa"
                                 title="Modal d'inscription"
                                 data-inverted=""
@@ -41,9 +41,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="booksifa-2 ui" href="./img/booksifa/booksifa2.webp">
+                                <a target="_blank" class="booksifa-2 ui" href="./img/booksifa/booksifa2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/booksifa/booksifa2-small.webp"
+                                    src="./img/booksifa/booksifa2-small.svg"
                                     alt="Capture 2 de Booksifa"
                                     title="Modal de connexion"
                                     data-inverted=""
@@ -54,9 +54,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a target="_blank" class="booksifa-3 ui" href="./img/booksifa/booksifa3.webp">
+                                <a target="_blank" class="booksifa-3 ui" href="./img/booksifa/booksifa3.svg">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/booksifa/booksifa3-small.webp"
+                                    src="./img/booksifa/booksifa3-small.svg"
                                     alt="Capture 3 de Booksifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -74,7 +74,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-booksifa" class="ui embed popup-img" data-source="vimeo" data-id="338274928" data-placeholder="./img/booksifa/booksifa3.webp"
+                <div id="vimeo-booksifa" class="ui embed popup-img" data-source="vimeo" data-id="338274928" data-placeholder="./img/booksifa/booksifa3.svg"
                         data-position="top center"
                         data-title="Démonstration de Books'IFA"
                         data-variation="inverted"
