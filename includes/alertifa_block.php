@@ -4,15 +4,15 @@
                 <div class="ui sticky sticky-alert raised segment text blue center aligned">
                     <h2 class="ui header blue">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5-tiny.webp">
-                        <img title="CSS 3" alt="Logo CSS 3" class="ui image popup-img" src="./img/logos/css3-tiny.webp">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image popup-img" src="./img/logos/js-tiny.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image popup-img" src="./img/logos/jquery-tiny.webp">
-                        <img title="Ajax" alt="Logo Ajax" class="ui image popup-img" src="./img/logos/ajax-tiny.webp">
-                        <img title="PHP 7" alt="Logo PHP 7" class="ui image popup-img" src="./img/logos/php7-tiny.webp">
-                        <img title="MySQL" alt="Logo MySQL" class="ui image popup-img" src="./img/logos/mysql-tiny.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.webp">
-                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image popup-img" src="./img/logos/mdb-tiny.webp">
+                        <img title="HTML 5" alt="Logo HTML 5" class="ui image popup-img" src="./img/logos/html5-tiny.svg">
+                        <img title="CSS 3" alt="Logo CSS 3" class="ui image popup-img" src="./img/logos/css3-tiny.svg">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image popup-img" src="./img/logos/js-tiny.svg">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image popup-img" src="./img/logos/jquery-tiny.svg">
+                        <img title="Ajax" alt="Logo Ajax" class="ui image popup-img" src="./img/logos/ajax-tiny.svg">
+                        <img title="PHP 7" alt="Logo PHP 7" class="ui image popup-img" src="./img/logos/php7-tiny.svg">
+                        <img title="MySQL" alt="Logo MySQL" class="ui image popup-img" src="./img/logos/mysql-tiny.svg">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap 4" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.svg">
+                        <img title="Material Design for Bootstrap" alt="Logo Material Design for Bootstrap" class="ui image popup-img" src="./img/logos/mdb-tiny.svg">
                     </div>
                 </div>
             </div>
@@ -27,9 +27,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.webp">
+                            <a class="alertifa-1 ui" target="_blank" href="./img/alertifa/alertifa.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/alertifa/alertifa-small.webp"
+                                src="./img/alertifa/alertifa-small.svg"
                                 alt="Capture 1 de alertifa"
                                 title="Capture 1 de alertifa"
                                 data-inverted=""
@@ -41,9 +41,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.webp">
+                                <a class="alertifa-2 ui" target="_blank" href="./img/alertifa/alertifa2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/alertifa/alertifa2-small.webp"
+                                    src="./img/alertifa/alertifa2-small.svg"
                                     alt="Capture 2 de alertifa"
                                     title="Page d'accueil"
                                     data-inverted=""
@@ -54,9 +54,9 @@
                                 </a>
                             </div>
                             <div class="ui">
-                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.webp">
+                                <a class="alertifa-3 ui" target="_blank" href="./img/alertifa/alertifa3.svg">
                                     <img class="popup-img ui medium image centered aligned rounded" 
-                                    src="./img/alertifa/alertifa3-small.webp"
+                                    src="./img/alertifa/alertifa3-small.svg"
                                     alt="Capture 3 de alertifa"
                                     title="Page d'administration"
                                     data-inverted=""
@@ -74,7 +74,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.webp"
+                <div id="vimeo-alertifa" class="ui embed popup-img" data-source="vimeo" data-id="376631754" data-placeholder="./img/alertifa/alertifa3.svg"
                         data-position="top center"
                         data-title="Démonstration de Alert'IFA"
                         data-variation="inverted"

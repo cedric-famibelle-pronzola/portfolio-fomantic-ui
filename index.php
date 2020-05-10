@@ -26,7 +26,7 @@
             margin-bottom: -1em;
         }
     </style>
-    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Cédric FAMIBELLE-PRONZOLA | Développeur WEB</title>
     <meta name="description" content="Cédric FAMIBELLE-PRONZOLA. Développeur WEB et WEB mobile. Créer, développer, c'est mon métier.
     Site réalisé avec Fomantic UI">
