@@ -85,9 +85,13 @@
                             <i class="huge git alternate icon"></i>
                             Voir le repo
                         </div>
-                        <div class="ui inline">
-                            <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/samnipoufe" class="ui negative button">Version "Build"</a>
-                            <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/angular-todo-list" class="ui negative button">Version "Dev"</a>
+                        <div class="ui grid">
+                            <div class="row">
+                                <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/samnipoufe" class="ui negative button">Version "Build"</a>
+                            </div>
+                            <div class="row">
+                                <a target="_blank" href="https://gitlab.com/cedric-famibelle-pronzola/angular-todo-list" class="ui negative button documentation">Version "Dev"</a>
+                            </div>
                         </div>
                     </div>
                 </div>

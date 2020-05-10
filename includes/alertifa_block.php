@@ -89,9 +89,13 @@
                             <i class="pdf file icon"></i>
                             Voir la doc
                         </div>
-                        <div class="ui inline">
-                            <a target="_blank" href="./pdf/alertifa-admin-doc.pdf" class="ui primary button">Administrateur</a>
-                            <a target="_blank" href="./pdf/users.pdf" class="ui primary button">Log utilisateurs</a>
+                        <div class="ui grid">
+                            <div class="row">
+                                <a target="_blank" href="./pdf/alertifa-admin-doc.pdf" class="ui primary button">Administrateur</a>
+                            </div>
+                            <div class="row">
+                                <a target="_blank" href="./pdf/users.pdf" class="ui primary button">Log utilisateurs</a>
+                            </div>
                         </div>
                     </div>
                 </div>
