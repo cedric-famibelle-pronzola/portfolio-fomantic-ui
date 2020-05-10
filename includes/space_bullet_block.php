@@ -21,9 +21,9 @@
                         <h2 class="ui header dividing red">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="spacebullet-1 ui" href="./img/spacebullet/spacebullet.webp">
+                            <a target="_blank" class="spacebullet-1 ui" href="./img/spacebullet/spacebullet.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/spacebullet/spacebullet.webp"
+                                src="./img/spacebullet/spacebullet.svg"
                                 alt="Capture 1 de Space Bullet"
                                 title="Début du jeu"
                                 data-inverted=""
@@ -35,9 +35,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="spacebullet-2 ui" href="./img/spacebullet/spacebullet2.webp">
+                                <a target="_blank" class="spacebullet-2 ui" href="./img/spacebullet/spacebullet2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/spacebullet/spacebullet2-small.webp"
+                                    src="./img/spacebullet/spacebullet2-small.svg"
                                     alt="Capture 2 de Space Bullet"
                                     title="Le joueur 1 dispose d'un bonus"
                                     data-inverted=""
@@ -55,7 +55,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-spacebullet" class="ui embed popup-img" data-source="vimeo" data-id="339968713" data-placeholder="./img/spacebullet/spacebullet.webp"
+                <div id="vimeo-spacebullet" class="ui embed popup-img" data-source="vimeo" data-id="339968713" data-placeholder="./img/spacebullet/spacebullet.svg"
                         data-position="top center"
                         data-title="Démonstration de Space Bullet"
                         data-variation="inverted"
