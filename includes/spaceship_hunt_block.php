@@ -4,9 +4,9 @@
                 <div class="ui raised segment text blue sticky-spaceship-hunt sticky center aligned">
                     <h2 class="ui header red">Outils utilisés</h2> 
                     <div class="ui tiny images">
-                        <img title="JavaScript" alt="Logo JavaScript" class="ui image popup-img" src="./img/logos/js-tiny.webp">
-                        <img title="jQuery" alt="Logo jQuery" class="ui image popup-img" src="./img/logos/jquery-tiny.webp">
-                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.webp">
+                        <img title="JavaScript" alt="Logo JavaScript" class="ui image popup-img" src="./img/logos/js-tiny.svg">
+                        <img title="jQuery" alt="Logo jQuery" class="ui image popup-img" src="./img/logos/jquery-tiny.svg">
+                        <img title="Bootstrap 4" alt="Logo Bootstrap" class="ui image popup-img" src="./img/logos/bootstrap4-tiny.svg">
                     </div>
                 </div>
             </div>
@@ -21,9 +21,9 @@
                         <h2 class="ui header dividing blue">Captures d'écran</h2>
                     <div class="stretched row">
                         <div class="column ui">
-                            <a target="_blank" class="spaceship-hunt-1 ui" href="./img/spaceship-hunt/spaceship-hunt.webp">
+                            <a target="_blank" class="spaceship-hunt-1 ui" href="./img/spaceship-hunt/spaceship-hunt.svg">
                                 <img class="popup-img ui image medium centered aligned rounded"
-                                src="./img/spaceship-hunt/spaceship-hunt-small.webp"
+                                src="./img/spaceship-hunt/spaceship-hunt-small.svg"
                                 alt="Capture 1 de Spaceship Hunt"
                                 title="Capture 1 de Spaceship Hunt"
                                 data-inverted=""
@@ -35,9 +35,9 @@
                         </div>
                         <div class="column">
                             <div class="ui">
-                                <a target="_blank" class="spaceship-hunt-2 ui" href="./img/spaceship-hunt/spaceship-hunt2.webp">
+                                <a target="_blank" class="spaceship-hunt-2 ui" href="./img/spaceship-hunt/spaceship-hunt2.svg">
                                     <img class="popup-img ui medium image centered aligned rounded"
-                                    src="./img/spaceship-hunt/spaceship-hunt2-small.webp"
+                                    src="./img/spaceship-hunt/spaceship-hunt2-small.svg"
                                     alt="Capture 2 de Spaceship Hunt"
                                     title="Capture 2 de alertifa"
                                     data-inverted=""
@@ -55,7 +55,7 @@
                         </noscript>
                     </h2>
                 </div>
-                <div id="vimeo-spaceship-hunt" class="ui embed popup-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/spaceship-hunt/spaceship-hunt.webp"
+                <div id="vimeo-spaceship-hunt" class="ui embed popup-img" data-source="vimeo" data-id="338273164" data-placeholder="./img/spaceship-hunt/spaceship-hunt.svg"
                         data-position="top center"
                         data-title="Démonstration de Spaceship Hunt"
                         data-variation="inverted"
